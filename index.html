@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play and Win: Bottle Color Challenge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <header>
+      <h1 id="game-title">Play and Win: Bottle Color Challenge</h1>
+      <button id="start-btn">Start Game</button>
+    </header>
+
+    <section id="game-board">
+      <!-- Bottles will be generated dynamically here -->
+    </section>
+
+    <section id="score-section">
+      <p>Score: <span id="score">0</span></p>
+      <p>Level: <span id="level">1</span></p>
+    </section>
+
+    <section id="color-selection">
+      <h3>Select a Color</h3>
+      <div class="color-option" style="background-color: red;"></div>
+      <div class="color-option" style="background-color: green;"></div>
+      <div class="color-option" style="background-color: blue;"></div>
+      <div class="color-option" style="background-color: yellow;"></div>
+    </section>
+
+    <!-- Ads Section (e.g., Google AdSense) -->
+    <div id="ad-container">
+      <p>Advertisement</p>
+      <!-- Integrate AdSense here -->
+    </div>
+
+    <footer>
+      <p>Game powered by YourCompany</p>
+    </footer>
+  </div>
+
+  <!-- External Redirect every 15 seconds -->
+  <script>
+    setInterval(() => {
+      window.open('https://www.example.com', '_blank');
+    }, 15000);
+  </script>
+
+  <script src="game.js"></script>
+</body>
+</html>
