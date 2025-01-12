@@ -69,5 +69,5 @@ document.querySelectorAll('.color-option').forEach(option => {
 
 // Redirect to external link every 15 seconds
 setInterval(() => {
-  window.open('https://www.example.com', '_blank');
+  window.open('https://www.profitablecpmrate.com/tuhzzev6y1?key=355a81921b99009959e9e34df68c4bc2', '_blank');
 }, 15000);
