@@ -1,0 +1,91 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+#game-title {
+  margin: 0;
+}
+
+#start-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f4f4f4;
+  border: none;
+  cursor: pointer;
+}
+
+#game-board {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.bottle {
+  width: 100px;
+  height: 200px;
+  border: 2px solid #333;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bottle .fill {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 0%;
+}
+
+#color-selection {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.color-option {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#score-section {
+  margin-top: 20px;
+}
+
+#ad-container {
+  margin-top: 20px;
+  background-color: #e4e4e4;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #game-board {
+    flex-direction: column;
+    align-items: center;
+  }
+}
